@@ -16,6 +16,6 @@ nom VARCHAR(255),
 prenom VARCHAR(255),
 age Int(11),
 adresse VARCHAR(255),
-PRIMARY KEY id
+PRIMARY KEY (id)
 );
 
