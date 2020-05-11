@@ -4,7 +4,7 @@ c'est un tp sous linux, administration du serveur web apache.
 #c'est Partie 1 : Application LAMP All-in-One
 #echo "Creation des utilisareurs et de la base de données"
 sudo mysql <<EOF
-create user Aboubacar23 identified by 'Aboubacar23';
+create user root identified by 'Aboubacar23';
 grant all privileges on *.* To Aboubacar23;
 
 create database grh;
