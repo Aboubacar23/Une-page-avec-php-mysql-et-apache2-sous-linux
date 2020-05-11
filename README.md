@@ -10,7 +10,7 @@ grant all privileges on *.* To Aboubacar23;
 create database grh;
 use grh;
 
-CREATE TABLE users (
+CREATE TABLE personne (
 id Int NOT NULL AUTO_INCREMENT,
 nom VARCHAR(255),
 prenom VARCHAR(255),
