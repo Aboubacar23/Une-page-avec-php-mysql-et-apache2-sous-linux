@@ -5,7 +5,7 @@ c'est un tp sous linux, administration du serveur web apache.
 #echo "Creation des utilisareurs et de la base de données"
 sudo mysql <<EOF
 create user root identified by 'Aboubacar23';
-grant all privileges on *.* To Aboubacar23;
+grant all privileges on *.* To root;
 
 create database grh;
 use grh;
